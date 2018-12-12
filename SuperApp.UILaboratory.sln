@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperApp.UILaboratory", "SuperApp.UILaboratory.csproj", "{0397DC8F-6C7C-4606-B105-0E9A8441D188}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0397DC8F-6C7C-4606-B105-0E9A8441D188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0397DC8F-6C7C-4606-B105-0E9A8441D188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0397DC8F-6C7C-4606-B105-0E9A8441D188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0397DC8F-6C7C-4606-B105-0E9A8441D188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1CAAB40-5ED3-4908-88B2-02A7C5BAB7DC}
+	EndGlobalSection
+EndGlobal
