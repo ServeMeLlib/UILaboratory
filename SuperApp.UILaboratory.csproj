@@ -91,7 +91,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <None Include="app.manifest" />
+    <None Include="LICENSE" />
     <None Include="packages.config" />
+    <None Include="README.md" />
+    <EmbeddedResource Include="rxhelper.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Choose>

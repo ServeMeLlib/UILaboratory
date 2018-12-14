@@ -23,9 +23,11 @@ app.directive('template', function () {
         link: function(scope, element, attributes) {
             $(element).append("<div id='time'></div>");
             $('#time').load("/search");
-            console.log(t);
+           
         }
     };
 });
 
 angular.bootstrap(document, [name]);
+event.on("started", function (data) { console.log(data) });
+event.trigger("started","now");
